@@ -30,7 +30,7 @@ __all__ = ['TransitionNotAllowed', 'ConcurrentTransition',
            'FSMKeyField', 'ConcurrentTransitionMixin', 'transition',
            'can_proceed', 'has_transition_perm']
 
-VERSION = (2, 7, 2)
+VERSION = (2, 8, 0)
 
 if sys.version_info[:2] == (2, 6):
     # Backport of Python 2.7 inspect.getmembers,
