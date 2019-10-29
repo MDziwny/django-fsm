@@ -2,7 +2,7 @@ Changelog
 =========
 
 django-fsm 2.8.0.dev0 unreleased
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 - Add compatibility tests with Django 3.0
 - Remove the dependency with django-guardians in the tests
@@ -10,33 +10,33 @@ django-fsm 2.8.0.dev0 unreleased
 
 
 django-fsm 2.7.2 2019-05-01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add compatibility test with python 3.8
 - Add compatibility test with Django 2.2
   - Refactor the models in tests, a migration
 
 django-fsm 2.7.1 2019-03-04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Delivery on Pypi
 
 django-fsm 2.7.0 2018-12-14
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Fix the travis tests
 - Add compatibility test with python 3.7, remove 2.6 and 3.3
 - Add compatibility test with Django 2.0 and 2.1, remove 1.6, 1.8, 1.9 and 1.10
 
 django-fsm 2.6.0 2017-06-08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Fix django 1.11 compatibility
 - Fix TypeError in `graph_transitions` command when using django's lazy translations
 
 
 django-fsm 2.5.0 2017-03-04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - graph_transition command fix for django 1.10
 - graph_transition command supports GET_STATE targets
@@ -45,14 +45,14 @@ django-fsm 2.5.0 2017-03-04
 
 
 django-fsm 2.4.0 2016-05-14
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - graph_transition commnad now works with multiple  FSM's per model
 - Add ability to set target state from transition return value or callable
 
 
 django-fsm 2.3.0 2015-10-15
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add source state shortcut '+' to specify transitions from all states except the target
 - Add object-level permission checks
@@ -61,7 +61,7 @@ django-fsm 2.3.0 2015-10-15
 
 
 django-fsm 2.2.1 2015-04-27
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Improved exception message for unmet transition conditions.
 - Don't send post transition signal in case of no state changes on
@@ -71,7 +71,7 @@ django-fsm 2.2.1 2015-04-27
 - Clean django 1.8 warnings
 
 django-fsm 2.2.0 2014-09-03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Support for `class
   substitution <http://schinckel.net/2013/06/13/django-proxy-model-state-machine/>`__
@@ -83,12 +83,12 @@ django-fsm 2.2.0 2014-09-03
 - Ability to change state on transition exception
 
 django-fsm 2.1.0 2014-05-15
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Support for attaching permission checks on model transitions
 
 django-fsm 2.0.0 2014-03-15
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Backward incompatible release
 - All public code import moved directly to django\_fsm package
@@ -102,43 +102,43 @@ django-fsm 2.0.0 2014-03-15
 - New get\_all\_FIELD\_transitions method contributed to class
 
 django-fsm 1.6.0 2014-03-15
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - FSMIntegerField and FSMKeyField support
 
 django-fsm 1.5.1 2014-01-04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Ad-hoc support for state fields from proxy and inherited models
 
 django-fsm 1.5.0 2013-09-17
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Python 3 compatibility
 
 django-fsm 1.4.0 2011-12-21
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add graph\_transition command for drawing state transition picture
 
 django-fsm 1.3.0 2011-07-28
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add direct field modification protection
 
 django-fsm 1.2.0 2011-03-23
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add pre\_transition and post\_transition signals
 
 django-fsm 1.1.0 2011-02-22
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Add support for transition conditions
 - Allow multiple FSMField in one model
 - Contribute get\_available\_FIELD\_transitions for model class
 
 django-fsm 1.0.0 2010-10-12
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 - Initial public release
