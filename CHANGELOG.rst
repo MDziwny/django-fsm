@@ -1,12 +1,20 @@
 Changelog
 =========
 
+django-fsm 2.8.0.dev0 unreleased
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Add compatibility tests with Django 3.0
+- Remove the dependency with django-guardians in the tests
+- change some django deprecated functions
+
+
 django-fsm 2.7.2 2019-05-01
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Add compatibility test with python 3.8
 - Add compatibility test with Django 2.2
-  - Refactor the models in tests, a migration 
+  - Refactor the models in tests, a migration
 
 django-fsm 2.7.1 2019-03-04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
