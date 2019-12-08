@@ -1,8 +1,8 @@
 Changelog
 =========
 
-django-fsm 2.8.0.dev0 unreleased
---------------------------------
+django-fsm 2.8.0 2019-12-08
+---------------------------
 
 - Add compatibility tests with Django 3.0
 - Remove the dependency with django-guardians in the tests
